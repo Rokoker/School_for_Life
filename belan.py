@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import time
 import re
+#Скопировал
 
 
 class Belan(object):
