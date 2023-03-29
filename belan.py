@@ -5,7 +5,7 @@ import numpy as np
 import time
 import re
 #Скопировал
-
+# Пытаюсь сделать комментарий
 
 class Belan(object):
     '''
