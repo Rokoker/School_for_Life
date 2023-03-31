@@ -5,7 +5,7 @@ import numpy as np
 import time
 import re
 
-
+#Lets go
 class Belan(object):
     '''
     Класс анализатора спектра Белан СК4 - Белан 32
