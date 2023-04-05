@@ -4,6 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+serial = "*"
+matplotlib = "*"
+pyserial = "*"
+pyvisa = "*"
+pyvisa-py = "*"
+usb = "*"
+pyusb = "*"
+psutil = "*"
+zeroconf = "*"
 
 [dev-packages]
 
