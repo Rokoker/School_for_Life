@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.14.1, 2023-04-05T16:26:43. -->
+<!-- Written by QtCreator 4.14.1, 2023-04-05T16:36:05. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -170,6 +170,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">AgilenN9310A</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./home/user-astra/School_for_Life/KPA/Niir_razrb/AgilenN9310A.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/user-astra/School_for_Life/KPA/Niir_razrb/AgilenN9310A.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{999d2ceb-3b51-4990-9193-2de696f905f7}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/user-astra/School_for_Life/KPA/Niir_razrb/AgilenN9310A.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -241,6 +242,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">BelanCK04</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./home/user-astra/School_for_Life/KPA/Niir_razrb/BelanCK04.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/user-astra/School_for_Life/KPA/Niir_razrb/BelanCK04.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{cdffd844-69e4-4000-9411-8a313c09a2a3}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/user-astra/School_for_Life/KPA/Niir_razrb/BelanCK04.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
