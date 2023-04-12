@@ -23,6 +23,7 @@ class Belan(object):
 
             self.ser.open()
             if self.ser.isOpen():
+                self.next_razr()
                 self.ser.write(b'\n')
                 self.ser.readline()
                 znach = func(self,*args, **kwargs)
@@ -70,6 +71,79 @@ class Belan(object):
         self.ser.write(_string)
         buffer = self.ser.readline()
         print(buffer)
+
+    @check_com_port
+    def set_razv(self,rej):
+        _string = ':INITiate:CONTinuous {};'.format(rej)
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+
+
+    @check_com_port
+    def set_marker(self):
+        _string = ':trac:math:peak;\n'
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+        buffer = self.ser.readline()
+        buffer = self.ser.readline()
+        buffer = buffer.split()
+        freq,ampl = list(map(float, buffer))
+        print("Частота = {}".format(freq))
+        print("Амплитуда = {} дБм".format(ampl))
+        return freq,ampl
+
+
+    def next_razr(self):
+        _string = ':INITiate:IMMediate;'
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+
+
+    @check_com_port
+    def polosa_x(self):
+        _string = ':sens:freq:start ?;\n'
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+        buffer = self.ser.readline()
+        buffer = self.ser.readline()
+        x_start = float(buffer.decode('utf-8')[:-2])
+
+        _string = ':sens:freq:stop ?;\n'
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+        buffer = self.ser.readline()
+        buffer = self.ser.readline()
+        x_stop = float(buffer.decode('utf-8')[:-2])
+
+        _string = ':Sense:Sweep:Points ?;\n'
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+        buffer = self.ser.readline()
+        buffer = self.ser.readline()
+        N_otch = int(buffer.decode('utf-8'))
+        print(N_otch)
+        return x_start,x_stop,N_otch
+
+
+    @check_com_port
+    def set_span(self):
+        _string = ':SENSe:FREQ:SPAN 50 kHz;'
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+
+
+    @check_com_port
+    def set_res(self):
+        _string = ':sens:band:res 1 kHz;'
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+
+
+
+
+
+
+
 
 
 

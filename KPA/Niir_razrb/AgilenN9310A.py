@@ -42,4 +42,8 @@ class Agilent_GEN(object):
     def mod_stat(self):
         self.my_instrument.write(":MOD:STATe OFF")
 
+    @check_session
+    def set_freq(self,F):
+        self.my_instrument.write(":FREQuency:CW {} GHz".format(F))
+
 
