@@ -12,6 +12,7 @@ sklearn = "*"
 seaborn = "*"
 scikit-learn = "*"
 setuptools = "*"
+plotly = "*"
 
 [dev-packages]
 

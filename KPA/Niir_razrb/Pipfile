@@ -13,6 +13,8 @@ usb = "*"
 pyusb = "*"
 psutil = "*"
 zeroconf = "*"
+pyqt5 = "*"
+pyqtgraph = "*"
 
 [dev-packages]
 

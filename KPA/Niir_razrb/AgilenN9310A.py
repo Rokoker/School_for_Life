@@ -1,7 +1,5 @@
-import time
 import pyvisa as visa
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 class Agilent_GEN(object):
     rm = visa.ResourceManager()
@@ -9,16 +7,13 @@ class Agilent_GEN(object):
     my_instrument = rm.open_resource("USB0::2391::8216::0115001392::0::INSTR")
     my_instrument.close()
 
-
     def check_session(func):
 
-
-        def _wrapper(self,*args, **kwargs):
+        def _wrapper(self, *args, **kwargs):
             self.my_instrument.open()
             if self.my_instrument.session:
-                znach = func(self,*args, **kwargs)
+                znach = func(self, *args, **kwargs)
                 self.my_instrument.close()
-
 
             else:
                 print("Error, Agilent N9310A is not aviable")
@@ -43,7 +38,5 @@ class Agilent_GEN(object):
         self.my_instrument.write(":MOD:STATe OFF")
 
     @check_session
-    def set_freq(self,F):
+    def set_freq(self, F):
         self.my_instrument.write(":FREQuency:CW {} GHz".format(F))
-
-
