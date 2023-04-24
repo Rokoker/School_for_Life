@@ -12,6 +12,11 @@ pandas = "*"
 seaborn = "*"
 sklearn = "*"
 scikit-learn = "*"
+<<<<<<< HEAD
+=======
+setuptools = "*"
+plotly = "*"
+>>>>>>> c0a007c1883d8bd401744c0b9cd8f496d45cadca
 
 [dev-packages]
 
