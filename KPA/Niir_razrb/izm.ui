@@ -30,21 +30,8 @@
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QGridLayout" name="gridLayout">
-       <item row="3" column="0">
-        <widget class="QLabel" name="mark_freq">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string>Частота маркера = 0000000000000000000</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QFrame" name="frame_2">
+       <item row="10" column="0">
+        <widget class="QFrame" name="frame_4">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -57,16 +44,19 @@
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QLabel" name="label">
+           <widget class="QPushButton" name="inst_har">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
             <property name="text">
-             <string>Центральная частота</string>
+             <string>Установить характеристики</string>
             </property>
            </widget>
-          </item>
-          <item>
-           <widget class="QLineEdit" name="lineEdit"/>
           </item>
          </layout>
         </widget>
@@ -107,7 +97,92 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_2"/>
+           <widget class="QLineEdit" name="span"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QFrame" name="frame_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Центральная частота</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="cent_freq"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QFrame" name="frame_6">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Фильтр низких частот</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="filtr_radio"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="mark_freq">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>Частота маркера = 0000000000000000000</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QFrame" name="frame_7">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Видеофильтр</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="filtr_video"/>
           </item>
          </layout>
         </widget>
@@ -143,58 +218,23 @@
          </layout>
         </widget>
        </item>
-       <item row="8" column="0">
-        <widget class="QFrame" name="frame_4">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
+       <item row="9" column="0">
+        <widget class="QFrame" name="frame_8">
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
-           <widget class="QPushButton" name="pushButton">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
+           <widget class="QCheckBox" name="razv_Box">
             <property name="text">
-             <string>Установить характеристики</string>
+             <string>Однократная развертка</string>
             </property>
            </widget>
           </item>
          </layout>
-        </widget>
-       </item>
-       <item row="7" column="0">
-        <widget class="QFrame" name="frame_6">
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <widget class="QLabel" name="label_3">
-          <property name="geometry">
-           <rect>
-            <x>40</x>
-            <y>40</y>
-            <width>104</width>
-            <height>27</height>
-           </rect>
-          </property>
-          <property name="text">
-           <string>Полоса обзора</string>
-          </property>
-         </widget>
         </widget>
        </item>
       </layout>

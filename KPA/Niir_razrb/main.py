@@ -1,9 +1,7 @@
 import sys  # sys нужен для передачи argv в QApplication
 from PyQt5 import QtWidgets
-from BelanCK04 import Belan
-# from AgilenN9310A importA Agilent_GEN
-import numpy as np
 import PyQt5.uic
+from main_work import OOP
 
 MainWindow_start, _ = PyQt5.uic.loadUiType("MainWindow_start.ui")
 MainWindow_izm, _ = PyQt5.uic.loadUiType("izm.ui")
@@ -27,10 +25,9 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow_start):
         self.connect_belan.clicked.connect(self.connect_belan_to_prog)
         self.perehod_k_izmereniam.clicked.connect(self.perehod_new_window_izm)
 
-
     def perehod_new_window_izm(self):
-        if hasattr(self, "belan"):
-            self.window2 = okno_izmerenii(self, belan=self.belan)
+        if hasattr(oop, "belan"):
+            self.window2 = okno_izmerenii(self)
             self.window2.show()
         else:
             message_window = MessageWindow(self)
@@ -39,42 +36,59 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow_start):
             message_window.exec_()
 
     def connect_belan_to_prog(self):
-        try:
-            if self.belan:
-                self.sost_belan.setText("Подключено")
-        except AttributeError:
-            self.belan = Belan()
-            buffer = self.belan.chek_belan()
-            if buffer == b'*IDN?;ELVIRA,BELAN CK-4,0000,V 1.0\n':
-                self.sost_belan.setText("Подключено")
-            else:
-                print("Ошибка при подключении спектроанализатора")
+        if oop.connect():
+            self.sost_belan.setText("Подключено")
+        else:
+            self.sost_belan.setText("Не подключено")
 
 
 class okno_izmerenii(QtWidgets.QMainWindow, MainWindow_izm):
 
     def __init__(self, *args, **kwargs):
         super().__init__()
-        self.belan = kwargs.get('belan')
         self.setupUi(self)
-        self.ax = self.graph.axes
         self.read_data_button.clicked.connect(self.read_data)
+        self.inst_har.clicked.connect(self.inst_param)
+
+        self.cent_freq.setText("3000000000")
+        self.span.setText("2000000")
+        self.filtr_radio.setText("30000")
+        self.filtr_video.setText("1000")
+        self.razv_Box.setChecked(True)
 
     def read_data(self):
-        y = self.belan.read_graf()
-        x_start, x_stop, N_otch = self.belan.polosa_x()
-        x = np.linspace(x_start, x_stop, N_otch)
-        freq, ampl = self.belan.set_marker()
-        self.graph.axes.cla()  # Clear the canvas
-        self.graph.axes.plot(x, y)
-        self.graph.axes.scatter(freq, ampl, color="red", marker="x")
-        self.graph.axes.grid()
-        self.graph.draw()
-        self.mark_amp.setText("Частота маркера = {}".format(freq))
-        self.mark_freq.setText("Амплитуда маркера = {} дБм".format(ampl))
+
+        result = oop.read_data()
+        if result is False:
+            window.sost_belan.setText("Не подключено")
+            message_window = MessageWindow(self)
+            message_window.label_2.setText("Спектроанализатор ")
+            message_window.label_3.setText("")
+            message_window.exec_()
+
+        else:
+            y, x, freq, ampl = result
+            self.graph.axes.cla()  # Clear the canvas
+            self.graph.axes.plot(x, y)
+            self.graph.axes.scatter(freq, ampl, color="red", marker="x")
+            self.graph.axes.grid()
+            self.graph.draw()
+            self.mark_amp.setText("Частота маркера = {}".format(freq))
+            self.mark_freq.setText("Амплитуда маркера = {} дБм".format(ampl))
+
+    def inst_param(self):
+
+        cent_freq = int(self.cent_freq.text())
+        span_bw = int(self.span.text())
+        radio_bw = int(self.filtr_radio.text())
+        video_bw = int(self.filtr_video.text())
+        razv_check = self.razv_Box.isChecked()
+        oop.inst_param(cent_freq, span_bw, radio_bw, video_bw, razv_check)
+
 
 
 if __name__ == '__main__':  # Если мы запускаем файл напрямую, а не импортируем
+    oop = OOP()
     app = QtWidgets.QApplication(sys.argv)  # Новый экземпляр QApplication
     window = MainWindow()  # Создаём объект класса ExampleApp
     window.show()  # Показываем окно

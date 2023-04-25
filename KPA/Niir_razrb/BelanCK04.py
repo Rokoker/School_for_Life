@@ -17,7 +17,6 @@ class Belan(object):
 
             self.ser.open()
             if self.ser.isOpen():
-                self.next_razr()
                 self.ser.write(b'\n')
                 self.ser.readline()
                 znach = func(self, *args, **kwargs)
@@ -31,6 +30,8 @@ class Belan(object):
 
     @check_com_port
     def read_graf(self):
+        self.next_razr()
+        self.ser.readline()
         self.ser.write(b':trace:data? trace1;\n')
         self.ser.readline()
         buffer = self.ser.readline()
@@ -45,13 +46,7 @@ class Belan(object):
 
     @check_com_port
     def inst_cent_freq(self, freq):
-        _string = ':sense:freq:cent {} GHz;'.format(freq)
-        _string = bytes(_string, encoding='utf8')
-        self.ser.write(_string)
-
-    @check_com_port
-    def inst_bwid(self, bandw):
-        _string = ':sense:bwid:res {} kHz;'.format(bandw)
+        _string = ':sense:freq:cent {} Hz;'.format(freq)
         _string = bytes(_string, encoding='utf8')
         self.ser.write(_string)
 
@@ -64,12 +59,19 @@ class Belan(object):
 
     @check_com_port
     def set_razv(self, rej):
+        if rej is True:
+            rej = 0
+        else:
+            rej = 1
         _string = ':INITiate:CONTinuous {};'.format(rej)
         _string = bytes(_string, encoding='utf8')
         self.ser.write(_string)
+        self.next_razr()
 
     @check_com_port
     def set_marker(self):
+        self.next_razr()
+        self.ser.readline()
         _string = ':trac:math:peak;\n'
         _string = bytes(_string, encoding='utf8')
         self.ser.write(_string)
@@ -110,16 +112,25 @@ class Belan(object):
         return x_start, x_stop, N_otch
 
     @check_com_port
-    def set_span(self):
-        _string = ':SENSe:FREQ:SPAN 50 kHz;'
+    def set_span(self, span_bw):
+        _string = ':SENSe:FREQ:SPAN {} Hz;'.format(span_bw)
         _string = bytes(_string, encoding='utf8')
         self.ser.write(_string)
 
     @check_com_port
-    def set_res(self):
-        _string = ':sens:band:res 1 kHz;'
+    def set_res(self, radio_bw):
+        _string = ':sens:band:res {} Hz;'.format(radio_bw)
         _string = bytes(_string, encoding='utf8')
         self.ser.write(_string)
+
+
+    @check_com_port
+    def set_video_filtr(self, video_bw):
+        _string = ':sense:band:video {} Hz;'.format(video_bw)
+        _string = bytes(_string, encoding='utf8')
+        self.ser.write(_string)
+
+
 
 # BelCmd(0) = ":sense:freq:cent "            'установка центральной частоты
 # BelCmd(1) = ":sense:bwid:res 100Hz;"       'установка полосы пропускания
