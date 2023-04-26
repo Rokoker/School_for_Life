@@ -1,7 +1,7 @@
 import pyvisa as visa
 
 
-class Agilent_GEN(object):
+class Agilent(object):
     rm = visa.ResourceManager()
     dev = list(rm.list_resources())
     my_instrument = rm.open_resource("USB0::2391::8216::0115001392::0::INSTR")
@@ -23,15 +23,15 @@ class Agilent_GEN(object):
     @check_session
     def check_agilent(self):
         _string = self.my_instrument.query("*IDN?")
-        print(_string)
+        return _string
 
     @check_session
-    def set_amplitude(self):
-        self.my_instrument.write(":AMPLitude:CW -20 dBm")
+    def set_amplitude(self, ampl):
+        self.my_instrument.write(":AMPLitude:CW {} dBm".format(ampl))
 
     @check_session
-    def rf_out_stat(self):
-        self.my_instrument.write(":RFOutput:STATe ON")
+    def rf_out_stat(self, param):
+        self.my_instrument.write(":RFOutput:STATe {}".format(param))
 
     @check_session
     def mod_stat(self):
@@ -39,4 +39,4 @@ class Agilent_GEN(object):
 
     @check_session
     def set_freq(self, F):
-        self.my_instrument.write(":FREQuency:CW {} GHz".format(F))
+        self.my_instrument.write(":FREQuency:CW {} Hz".format(F))

@@ -98,7 +98,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QLabel" name="sost_gen">
+              <widget class="QLabel" name="sost_agilent">
                <property name="text">
                 <string>Не подключено</string>
                </property>
@@ -108,7 +108,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="connect_gen">
+           <widget class="QPushButton" name="connect_agilent">
             <property name="text">
              <string>Подключить</string>
             </property>

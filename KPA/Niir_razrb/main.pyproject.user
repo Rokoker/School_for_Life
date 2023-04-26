@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.14.1, 2023-04-25T16:17:38. -->
+<!-- Written by QtCreator 4.14.1, 2023-04-26T18:17:59. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -458,6 +458,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">main_work</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./home/user-astra/School_for_Life/KPA/Niir_razrb/main_work.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/user-astra/School_for_Life/KPA/Niir_razrb/main_work.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{3add5c02-cdaa-4f7a-9e51-456de3296fba}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/user-astra/School_for_Life/KPA/Niir_razrb/main_work.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>

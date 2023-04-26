@@ -123,7 +123,6 @@ class Belan(object):
         _string = bytes(_string, encoding='utf8')
         self.ser.write(_string)
 
-
     @check_com_port
     def set_video_filtr(self, video_bw):
         _string = ':sense:band:video {} Hz;'.format(video_bw)
@@ -131,11 +130,6 @@ class Belan(object):
         self.ser.write(_string)
 
 
-
-# BelCmd(0) = ":sense:freq:cent "            'установка центральной частоты
-# BelCmd(1) = ":sense:bwid:res 100Hz;"       'установка полосы пропускания
-# BelCmd(2) = ":sense:bwid:vid 100Hz;"       'установка видео полосы пропускания
 # BelCmd(3) = ":sense:pow:range " + Replace((CStr(ACH.Oporn_BEL)), ",", ".") + "dBm;" 'установка опорного уровня
 # BelCmd(4) = ":sense:pow:rf:att 10;"        'установка аттенюатора
-# BelCmd(5) = ":sense:freq:span 2kHz;"       'установка полосы обзора
-# BelCmd(7) = ":trace:data? trace1;"         'чтение массива
+
