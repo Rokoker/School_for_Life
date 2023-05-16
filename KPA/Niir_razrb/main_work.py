@@ -1,11 +1,13 @@
 from BelanCK04 import Belan
 from AgilenN9310A import Agilent
 import numpy as np
+import csv
+import datetime
 
 
 class OOP(object):
 
-    def connect(self):
+    def connect_belan(self):
         if hasattr(self, "belan"):
             buffer = self.belan.chek_belan()
             if buffer == b'*IDN?;ELVIRA,BELAN CK-4,0000,V 1.0\n':
@@ -33,11 +35,11 @@ class OOP(object):
 
     def inst_param(self, freq, span_bw, radio_bw, video_bw, razv):
 
+        self.belan.set_razv(razv)
         self.belan.inst_cent_freq(freq)
         self.belan.set_span(span_bw)
         self.belan.set_res(radio_bw)
         self.belan.set_video_filtr(video_bw)
-        self.belan.set_razv(razv)
 
     def connect_agilent(self):
         if hasattr(self, "agilent"):
@@ -64,5 +66,19 @@ class OOP(object):
     def inst_param_agilent(self, freq, ampl):
         self.agilent.set_freq(freq)
         self.agilent.set_amplitude(ampl)
+
+    def save_data(self):
+        now = datetime.datetime.now()
+        result =  self.read_data()
+        if result is False:
+            pass # ошибка
+        else:
+            y, x, freq, ampl = result
+            with open('coords.csv', 'w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(['time, ', now.strftime('%Y-%m-%d %H:%M:%S')])
+                writer.writerow(['x', 'y'])
+                for i in range(len(x)):
+                    writer.writerow([x[i], y[i]])
 
 

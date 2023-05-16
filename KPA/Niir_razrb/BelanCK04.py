@@ -30,19 +30,24 @@ class Belan(object):
 
     @check_com_port
     def read_graf(self):
-        self.next_razr()
-        self.ser.readline()
-        self.ser.write(b':trace:data? trace1;\n')
-        self.ser.readline()
-        buffer = self.ser.readline()
+            for i in range(5): # пытаемся до 5 раз
+                self.next_razr()
+                self.ser.readline()
+                self.ser.write(b':trace:data? trace1;\n')
+                self.ser.readline()
+                buffer = self.ser.readline()
 
-        buffer = buffer.split()
+                buffer = buffer.split()
 
-        for i in range(len(buffer)):
-            buffer[i] = buffer[i].decode('utf-8')
-        y_lvl = list(map(float, buffer))
+                for i in range(len(buffer)):
+                    buffer[i] = buffer[i].decode('utf-8')
+                y_lvl = list(map(float, buffer))
+                if min(y_lvl)<-2000 or y_lvl[0]>-1:
+                    continue # если не получилось - повторяем попытку
+                else:
+                    return y_lvl  # если получилось - возвращаем данные
 
-        return y_lvl
+            return False # если не удалось после 5 попыток - возвращаем False
 
     @check_com_port
     def inst_cent_freq(self, freq):

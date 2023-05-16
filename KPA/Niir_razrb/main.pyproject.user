@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.14.1, 2023-04-26T18:17:59. -->
+<!-- Written by QtCreator 4.14.1, 2023-05-16T13:52:55. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -242,7 +242,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">BelanCK04</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./home/user-astra/School_for_Life/KPA/Niir_razrb/BelanCK04.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/user-astra/School_for_Life/KPA/Niir_razrb/BelanCK04.py</value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{c55640fe-13f4-461d-892f-44299a955ff3}</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{3daabf7b-2b9f-495e-bc11-e88ba470ed18}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/user-astra/School_for_Life/KPA/Niir_razrb/BelanCK04.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>

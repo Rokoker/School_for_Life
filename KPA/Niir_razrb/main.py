@@ -8,7 +8,6 @@ MainWindow_izm, _ = PyQt5.uic.loadUiType("izm.ui")
 MainWindow_havenot_connect, _ = PyQt5.uic.loadUiType("havenot_connect.ui")
 MainWindow_agilent, _ = PyQt5.uic.loadUiType("window_agilent.ui")
 
-
 class MessageWindow(QtWidgets.QDialog, MainWindow_havenot_connect):
     def __init__(self, parent=None):
         super(MessageWindow, self).__init__(parent)
@@ -40,7 +39,7 @@ class MainWindow(QtWidgets.QMainWindow, MainWindow_start):
             message_window.exec_()
 
     def connect_belan_to_prog(self):
-        if oop.connect():
+        if oop.connect_belan():
             self.sost_belan.setText("Подключено")
         else:
             self.sost_belan.setText("Не подключено")
@@ -86,6 +85,7 @@ class okno_izmerenii(QtWidgets.QMainWindow, MainWindow_izm):
             self.graph.draw()
             self.mark_amp.setText("Частота маркера = {}".format(freq))
             self.mark_freq.setText("Амплитуда маркера = {} дБм".format(ampl))
+            oop.save_data()
 
     def inst_param(self):
 
@@ -130,26 +130,3 @@ if __name__ == '__main__':  # Если мы запускаем файл напр
     window = MainWindow()  # Создаём объект класса ExampleApp
     window.show()  # Показываем окно
     sys.exit(app.exec_())  # и запускаем приложение
-
-'''
-
-if __name__=="__main__":
-    belan = Belan()
-    belan.chek_belan()
-    agilent =Agilent_GEN()
-# agilent =Agilent_GEN()
-    fff = 3
-    agilent.check_agilent()
-    agilent.set_amplitude()
-    agilent.rf_out_stat()
-    agilent.mod_stat()
-
-    agilent.set_freq(fff)
-    #belan.set_res()
-
-    #belan.set_span()
-    #belan.inst_cent_freq(fff)
-
-    belan.inst_bwid(1)
-    belan.set_razv(1)
-'''

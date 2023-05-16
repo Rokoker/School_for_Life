@@ -1,0 +1,555 @@
+Подключение от ('127.0.0.1', 38420)
+Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 38420)>
+Подключение от ('127.0.0.1', 38434)
+Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 38434)>
+Подключение от ('127.0.0.1', 38440)
+Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 38440)>
+2023-05-12 13:57:58,751 - Подключение от ('127.0.0.1', 39318)
+2023-05-12 13:57:58,752 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 39318)>
+2023-05-12 13:57:58,791 - Подключение от ('127.0.0.1', 39332)
+2023-05-12 13:57:58,791 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 39332)>
+2023-05-12 13:57:59,168 - Подключение от ('127.0.0.1', 39340)
+2023-05-12 13:57:59,169 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 39340)>
+2023-05-12 13:58:10,395 - Подключение от ('127.0.0.1', 54966)
+2023-05-12 13:58:10,395 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 54966)>
+2023-05-12 13:58:10,435 - Подключение от ('127.0.0.1', 54980)
+2023-05-12 13:58:10,435 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 54980)>
+2023-05-12 13:58:10,812 - Подключение от ('127.0.0.1', 54986)
+2023-05-12 13:58:10,813 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 54986)>
+2023-05-12 14:04:34,037 - Подключение от ('127.0.0.1', 58016)
+2023-05-12 14:04:34,037 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58016)>
+2023-05-12 14:04:34,037 - Полученная команда set_param_agilent
+2023-05-12 14:04:34,081 - Подключение от ('127.0.0.1', 58030)
+2023-05-12 14:04:34,081 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58030)>
+2023-05-12 14:04:34,081 - Полученная команда set_param_belan
+2023-05-12 14:04:34,458 - Подключение от ('127.0.0.1', 58032)
+2023-05-12 14:04:34,459 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58032)>
+2023-05-12 14:04:34,459 - Полученная команда read_data
+2023-05-12 14:05:48,561 - Подключение от ('127.0.0.1', 45756)
+2023-05-12 14:05:48,562 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 45756)>
+2023-05-12 14:05:48,562 - Полученная команда set_param_agilent
+2023-05-12 14:05:48,562 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-12 14:05:48,602 - Подключение от ('127.0.0.1', 45768)
+2023-05-12 14:05:48,602 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 45768)>
+2023-05-12 14:05:48,602 - Полученная команда set_param_belan
+2023-05-12 14:05:48,602 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-12 14:05:48,979 - Подключение от ('127.0.0.1', 45778)
+2023-05-12 14:05:48,979 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 45778)>
+2023-05-12 14:05:48,979 - Полученная команда read_data
+2023-05-12 14:05:48,979 - Полученные параметры {'command': 'read_data'}
+2023-05-15 13:44:09,500 - Подключение от ('127.0.0.1', 59148)
+2023-05-15 13:44:09,500 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59148)>
+2023-05-15 13:44:09,500 - Полученная команда set_param_agilent
+2023-05-15 13:44:09,500 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 13:44:09,544 - Подключение от ('127.0.0.1', 59154)
+2023-05-15 13:44:09,545 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59154)>
+2023-05-15 13:44:09,546 - Полученная команда set_param_belan
+2023-05-15 13:44:09,546 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 13:44:09,925 - Подключение от ('127.0.0.1', 59160)
+2023-05-15 13:44:09,926 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59160)>
+2023-05-15 13:44:09,926 - Полученная команда read_data
+2023-05-15 13:44:09,926 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:39:35,899 - Подключение от ('127.0.0.1', 49094)
+2023-05-15 15:39:35,899 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 49094)>
+2023-05-15 15:40:40,405 - Подключение от ('127.0.0.1', 37362)
+2023-05-15 15:40:40,406 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 37362)>
+2023-05-15 15:41:43,494 - Подключение от ('127.0.0.1', 52470)
+2023-05-15 15:41:43,495 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 52470)>
+2023-05-15 15:43:30,860 - Подключение от ('127.0.0.1', 51902)
+2023-05-15 15:43:30,861 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 51902)>
+2023-05-15 15:43:30,862 - Полученная команда set_param_agilent
+2023-05-15 15:43:30,862 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:43:30,903 - Подключение от ('127.0.0.1', 51918)
+2023-05-15 15:43:30,903 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 51918)>
+2023-05-15 15:43:30,903 - Полученная команда set_param_belan
+2023-05-15 15:43:30,903 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:44:13,432 - Подключение от ('127.0.0.1', 36000)
+2023-05-15 15:44:13,433 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 36000)>
+2023-05-15 15:44:13,433 - Полученная команда set_param_agilent
+2023-05-15 15:44:13,433 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:44:24,440 - Подключение от ('127.0.0.1', 51210)
+2023-05-15 15:44:24,440 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 51210)>
+2023-05-15 15:44:24,440 - Полученная команда set_param_agilent
+2023-05-15 15:44:24,440 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:44:24,478 - Подключение от ('127.0.0.1', 51226)
+2023-05-15 15:44:24,478 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 51226)>
+2023-05-15 15:44:24,479 - Полученная команда set_param_belan
+2023-05-15 15:44:24,479 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:44:53,113 - Подключение от ('127.0.0.1', 58564)
+2023-05-15 15:44:53,113 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58564)>
+2023-05-15 15:44:53,114 - Полученная команда set_param_agilent
+2023-05-15 15:44:53,114 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:44:53,151 - Подключение от ('127.0.0.1', 58566)
+2023-05-15 15:44:53,151 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58566)>
+2023-05-15 15:44:53,152 - Полученная команда set_param_belan
+2023-05-15 15:44:53,152 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:44:53,528 - Подключение от ('127.0.0.1', 58582)
+2023-05-15 15:44:53,528 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 58582)>
+2023-05-15 15:44:53,529 - Полученная команда read_data
+2023-05-15 15:44:53,529 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:46:00,144 - Подключение от ('127.0.0.1', 41416)
+2023-05-15 15:46:00,144 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41416)>
+2023-05-15 15:46:00,145 - Полученная команда set_param_agilent
+2023-05-15 15:46:00,145 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:46:00,184 - Подключение от ('127.0.0.1', 41424)
+2023-05-15 15:46:00,185 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41424)>
+2023-05-15 15:46:00,185 - Полученная команда set_param_belan
+2023-05-15 15:46:00,185 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:46:00,572 - Подключение от ('127.0.0.1', 41438)
+2023-05-15 15:46:00,572 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41438)>
+2023-05-15 15:46:00,572 - Полученная команда read_data
+2023-05-15 15:46:00,572 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:50:05,267 - Подключение от ('127.0.0.1', 40662)
+2023-05-15 15:50:05,267 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 40662)>
+2023-05-15 15:50:05,273 - Полученная команда set_param_agilent
+2023-05-15 15:50:05,273 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:50:05,318 - Подключение от ('127.0.0.1', 40670)
+2023-05-15 15:50:05,318 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 40670)>
+2023-05-15 15:50:05,318 - Полученная команда set_param_belan
+2023-05-15 15:50:05,318 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:50:05,700 - Подключение от ('127.0.0.1', 40684)
+2023-05-15 15:50:05,700 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 40684)>
+2023-05-15 15:50:05,701 - Полученная команда read_data
+2023-05-15 15:50:05,701 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:50:15,542 - Подключение от ('127.0.0.1', 41684)
+2023-05-15 15:50:15,542 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41684)>
+2023-05-15 15:50:15,542 - Полученная команда set_param_agilent
+2023-05-15 15:50:15,542 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:50:15,581 - Подключение от ('127.0.0.1', 41690)
+2023-05-15 15:50:15,581 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41690)>
+2023-05-15 15:50:15,581 - Полученная команда set_param_belan
+2023-05-15 15:50:15,581 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:50:15,959 - Подключение от ('127.0.0.1', 41698)
+2023-05-15 15:50:15,960 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41698)>
+2023-05-15 15:50:15,960 - Полученная команда read_dataq
+2023-05-15 15:50:15,960 - Полученные параметры {'command': 'read_dataq'}
+2023-05-15 15:51:35,108 - Подключение от ('127.0.0.1', 34950)
+2023-05-15 15:51:35,108 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 34950)>
+2023-05-15 15:51:35,108 - Полученная команда set_param_agilent
+2023-05-15 15:51:35,109 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:51:35,150 - Подключение от ('127.0.0.1', 34958)
+2023-05-15 15:51:35,150 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 34958)>
+2023-05-15 15:51:35,150 - Полученная команда set_param_belan
+2023-05-15 15:51:35,151 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:51:35,530 - Подключение от ('127.0.0.1', 34962)
+2023-05-15 15:51:35,530 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 34962)>
+2023-05-15 15:51:35,530 - Полученная команда read_dataq
+2023-05-15 15:51:35,531 - Полученные параметры {'command': 'read_dataq'}
+2023-05-15 15:53:49,976 - Подключение от ('127.0.0.1', 40146)
+2023-05-15 15:53:49,977 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 40146)>
+2023-05-15 15:53:49,977 - Полученная команда set_param_agilent
+2023-05-15 15:53:49,977 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:53:50,016 - Подключение от ('127.0.0.1', 40162)
+2023-05-15 15:53:50,016 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 40162)>
+2023-05-15 15:53:50,016 - Полученная команда set_param_belan
+2023-05-15 15:53:50,016 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': True}
+2023-05-15 15:53:50,395 - Подключение от ('127.0.0.1', 40166)
+2023-05-15 15:53:50,395 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 40166)>
+2023-05-15 15:54:01,968 - Подключение от ('127.0.0.1', 53794)
+2023-05-15 15:54:01,968 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53794)>
+2023-05-15 15:54:01,969 - Полученная команда set_param_agilent
+2023-05-15 15:54:01,969 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:54:02,008 - Подключение от ('127.0.0.1', 53796)
+2023-05-15 15:54:02,008 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53796)>
+2023-05-15 15:54:02,008 - Полученная команда set_param_belan
+2023-05-15 15:54:02,008 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-15 15:54:02,385 - Подключение от ('127.0.0.1', 53808)
+2023-05-15 15:54:02,385 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53808)>
+2023-05-15 15:54:08,356 - Подключение от ('127.0.0.1', 53822)
+2023-05-15 15:54:08,356 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53822)>
+2023-05-15 15:54:08,356 - Полученная команда set_param_agilent
+2023-05-15 15:54:08,356 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:54:08,394 - Подключение от ('127.0.0.1', 53826)
+2023-05-15 15:54:08,394 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53826)>
+2023-05-15 15:54:08,394 - Полученная команда set_param_belan
+2023-05-15 15:54:08,395 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-15 15:54:08,774 - Подключение от ('127.0.0.1', 53836)
+2023-05-15 15:54:08,774 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53836)>
+2023-05-15 15:54:08,774 - Полученная команда set_param_agilent
+2023-05-15 15:54:08,774 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:54:08,813 - Подключение от ('127.0.0.1', 53842)
+2023-05-15 15:54:08,813 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53842)>
+2023-05-15 15:54:08,813 - Полученная команда read_data
+2023-05-15 15:54:08,813 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:54:14,554 - Подключение от ('127.0.0.1', 53858)
+2023-05-15 15:54:14,554 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53858)>
+2023-05-15 15:54:14,555 - Полученная команда set_param_belan
+2023-05-15 15:54:14,555 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-15 15:54:14,932 - Подключение от ('127.0.0.1', 53022)
+2023-05-15 15:54:14,932 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53022)>
+2023-05-15 15:54:14,932 - Полученная команда set_param_agilent
+2023-05-15 15:54:14,932 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:54:14,973 - Подключение от ('127.0.0.1', 53038)
+2023-05-15 15:54:14,973 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53038)>
+2023-05-15 15:54:14,973 - Полученная команда read_data
+2023-05-15 15:54:14,973 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:54:20,711 - Подключение от ('127.0.0.1', 53046)
+2023-05-15 15:54:20,712 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 53046)>
+2023-05-15 15:54:20,712 - Полученная команда set_param_belan
+2023-05-15 15:54:20,712 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-15 15:54:21,098 - Подключение от ('127.0.0.1', 46564)
+2023-05-15 15:54:21,098 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 46564)>
+2023-05-15 15:54:21,098 - Полученная команда read_data
+2023-05-15 15:54:21,098 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:54:30,580 - Подключение от ('127.0.0.1', 56772)
+2023-05-15 15:54:30,580 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 56772)>
+2023-05-15 15:54:30,580 - Полученная команда set_param_agilent
+2023-05-15 15:54:30,581 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:54:30,620 - Подключение от ('127.0.0.1', 56784)
+2023-05-15 15:54:30,621 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 56784)>
+2023-05-15 15:54:30,621 - Полученная команда set_param_belan
+2023-05-15 15:54:30,621 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-15 15:54:31,001 - Подключение от ('127.0.0.1', 56792)
+2023-05-15 15:54:31,001 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 56792)>
+2023-05-15 15:54:31,001 - Полученная команда read_data
+2023-05-15 15:54:31,001 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:57:13,466 - Подключение от ('127.0.0.1', 49572)
+2023-05-15 15:57:13,467 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 49572)>
+2023-05-15 15:57:13,467 - Полученная команда set_param_agilent
+2023-05-15 15:57:13,467 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:57:13,506 - Выполнено
+2023-05-15 15:57:13,507 - Подключение от ('127.0.0.1', 49582)
+2023-05-15 15:57:13,507 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 49582)>
+2023-05-15 15:57:13,508 - Полученная команда set_param_belan
+2023-05-15 15:57:13,508 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-15 15:57:13,886 - Выполнено
+2023-05-15 15:57:13,887 - Подключение от ('127.0.0.1', 49594)
+2023-05-15 15:57:13,887 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 49594)>
+2023-05-15 15:57:13,887 - Полученная команда read_data
+2023-05-15 15:57:13,887 - Полученные параметры {'command': 'read_data'}
+2023-05-15 15:57:19,623 - Выполнено
+2023-05-15 15:57:24,887 - Подключение от ('127.0.0.1', 34536)
+2023-05-15 15:57:24,887 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 34536)>
+2023-05-15 15:57:24,887 - Полученная команда set_param_agilent
+2023-05-15 15:57:24,888 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-15 15:57:24,925 - Выполнено
+2023-05-15 15:57:24,926 - Подключение от ('127.0.0.1', 34552)
+2023-05-15 15:57:24,926 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 34552)>
+2023-05-15 15:57:24,926 - Полученная команда set_param_belan
+2023-05-15 15:57:24,926 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-15 15:57:25,304 - Выполнено
+2023-05-15 15:57:25,305 - Подключение от ('127.0.0.1', 34566)
+2023-05-15 15:57:25,305 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 34566)>
+2023-05-15 15:57:25,305 - Ошибка  Command not found
+2023-05-16 12:21:35,602 - Подключение от ('127.0.0.1', 50420)
+2023-05-16 12:21:35,603 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 50420)>
+2023-05-16 12:21:35,603 - Полученная команда set_param_agilent
+2023-05-16 12:21:35,603 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:21:35,646 - Выполнено
+2023-05-16 12:21:35,647 - Подключение от ('127.0.0.1', 50426)
+2023-05-16 12:21:35,647 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 50426)>
+2023-05-16 12:21:35,647 - Полученная команда set_param_belan
+2023-05-16 12:21:35,647 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:21:36,024 - Выполнено
+2023-05-16 12:21:36,024 - Подключение от ('127.0.0.1', 50428)
+2023-05-16 12:21:36,024 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 50428)>
+2023-05-16 12:21:36,024 - Полученная команда read_data
+2023-05-16 12:21:36,025 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:21:41,760 - Выполнено
+2023-05-16 12:37:46,368 - Подключение от ('127.0.0.1', 59918)
+2023-05-16 12:37:46,368 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 59918)>
+2023-05-16 12:37:46,368 - Полученная команда set_param_agilent
+2023-05-16 12:37:46,368 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:37:46,407 - Выполнено
+2023-05-16 12:37:46,409 - Подключение от ('127.0.0.1', 59922)
+2023-05-16 12:37:46,409 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 59922)>
+2023-05-16 12:37:46,409 - Полученная команда set_param_belan
+2023-05-16 12:37:46,409 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:37:46,786 - Выполнено
+2023-05-16 12:37:46,787 - Подключение от ('127.0.0.1', 59938)
+2023-05-16 12:37:46,787 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 59938)>
+2023-05-16 12:37:46,788 - Полученная команда read_data
+2023-05-16 12:37:46,788 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:37:52,534 - Выполнено
+2023-05-16 12:39:10,128 - Подключение от ('127.0.0.1', 43032)
+2023-05-16 12:39:10,128 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 43032)>
+2023-05-16 12:39:10,128 - Полученная команда set_param_agilent
+2023-05-16 12:39:10,128 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:39:10,169 - Выполнено
+2023-05-16 12:39:10,170 - Подключение от ('127.0.0.1', 43042)
+2023-05-16 12:39:10,170 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 43042)>
+2023-05-16 12:39:10,170 - Полученная команда set_param_belan
+2023-05-16 12:39:10,170 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:39:10,549 - Выполнено
+2023-05-16 12:39:10,549 - Подключение от ('127.0.0.1', 43886)
+2023-05-16 12:39:10,549 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 43886)>
+2023-05-16 12:39:10,550 - Полученная команда read_data
+2023-05-16 12:39:10,550 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:39:16,294 - Выполнено
+2023-05-16 12:43:35,209 - Подключение от ('127.0.0.1', 48016)
+2023-05-16 12:43:35,210 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 48016)>
+2023-05-16 12:43:35,210 - Полученная команда set_param_agilent
+2023-05-16 12:43:35,210 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:43:35,252 - Выполнено
+2023-05-16 12:43:35,253 - Подключение от ('127.0.0.1', 48018)
+2023-05-16 12:43:35,253 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 48018)>
+2023-05-16 12:43:35,253 - Полученная команда set_param_belan
+2023-05-16 12:43:35,254 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:43:35,631 - Выполнено
+2023-05-16 12:43:35,632 - Подключение от ('127.0.0.1', 48020)
+2023-05-16 12:43:35,632 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 48020)>
+2023-05-16 12:43:35,632 - Полученная команда read_data
+2023-05-16 12:43:35,632 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:43:41,368 - Выполнено
+2023-05-16 12:44:43,712 - Подключение от ('127.0.0.1', 42836)
+2023-05-16 12:44:43,712 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 42836)>
+2023-05-16 12:44:43,713 - Полученная команда set_param_agilent
+2023-05-16 12:44:43,713 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:44:43,754 - Выполнено
+2023-05-16 12:44:43,755 - Подключение от ('127.0.0.1', 42846)
+2023-05-16 12:44:43,755 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 42846)>
+2023-05-16 12:44:43,756 - Полученная команда set_param_belan
+2023-05-16 12:44:43,756 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:44:44,134 - Выполнено
+2023-05-16 12:44:44,134 - Подключение от ('127.0.0.1', 42860)
+2023-05-16 12:44:44,134 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 42860)>
+2023-05-16 12:44:44,134 - Полученная команда read_data
+2023-05-16 12:44:44,134 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:44:49,876 - Выполнено
+2023-05-16 12:45:28,027 - Подключение от ('127.0.0.1', 57528)
+2023-05-16 12:45:28,027 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 57528)>
+2023-05-16 12:45:28,027 - Полученная команда set_param_agilent
+2023-05-16 12:45:28,027 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:45:28,064 - Выполнено
+2023-05-16 12:45:28,065 - Подключение от ('127.0.0.1', 57530)
+2023-05-16 12:45:28,066 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 57530)>
+2023-05-16 12:45:28,066 - Полученная команда set_param_belan
+2023-05-16 12:45:28,066 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:45:28,445 - Выполнено
+2023-05-16 12:45:28,445 - Подключение от ('127.0.0.1', 57540)
+2023-05-16 12:45:28,446 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 57540)>
+2023-05-16 12:45:28,446 - Полученная команда read_data
+2023-05-16 12:45:28,446 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:45:34,183 - Выполнено
+2023-05-16 12:47:19,617 - Подключение от ('127.0.0.1', 48242)
+2023-05-16 12:47:19,617 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 48242)>
+2023-05-16 12:47:19,618 - Полученная команда set_param_agilent
+2023-05-16 12:47:19,618 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:47:19,660 - Выполнено
+2023-05-16 12:47:19,662 - Подключение от ('127.0.0.1', 48254)
+2023-05-16 12:47:19,662 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 48254)>
+2023-05-16 12:47:19,662 - Полученная команда set_param_belan
+2023-05-16 12:47:19,662 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:47:20,049 - Выполнено
+2023-05-16 12:47:20,050 - Подключение от ('127.0.0.1', 48268)
+2023-05-16 12:47:20,050 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 48268)>
+2023-05-16 12:47:20,050 - Полученная команда read_data
+2023-05-16 12:47:20,050 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:47:25,786 - Выполнено
+2023-05-16 12:48:51,843 - Подключение от ('127.0.0.1', 47624)
+2023-05-16 12:48:51,844 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 47624)>
+2023-05-16 12:48:51,844 - Полученная команда set_param_agilent
+2023-05-16 12:48:51,844 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:48:51,885 - Выполнено
+2023-05-16 12:48:51,886 - Подключение от ('127.0.0.1', 47634)
+2023-05-16 12:48:51,887 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 47634)>
+2023-05-16 12:48:51,887 - Полученная команда set_param_belan
+2023-05-16 12:48:51,887 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:48:52,266 - Выполнено
+2023-05-16 12:48:52,267 - Подключение от ('127.0.0.1', 47648)
+2023-05-16 12:48:52,267 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 47648)>
+2023-05-16 12:48:52,267 - Полученная команда read_data
+2023-05-16 12:48:52,268 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:48:58,003 - Выполнено
+2023-05-16 12:50:56,072 - Подключение от ('127.0.0.1', 41748)
+2023-05-16 12:50:56,072 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41748)>
+2023-05-16 12:50:56,072 - Полученная команда set_param_agilent
+2023-05-16 12:50:56,073 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:50:56,113 - Выполнено
+2023-05-16 12:50:56,115 - Подключение от ('127.0.0.1', 41752)
+2023-05-16 12:50:56,115 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41752)>
+2023-05-16 12:50:56,115 - Полученная команда set_param_belan
+2023-05-16 12:50:56,115 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:50:56,498 - Выполнено
+2023-05-16 12:50:56,498 - Подключение от ('127.0.0.1', 41758)
+2023-05-16 12:50:56,499 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41758)>
+2023-05-16 12:50:56,499 - Полученная команда read_data
+2023-05-16 12:50:56,499 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:51:02,240 - Выполнено
+2023-05-16 12:51:27,948 - Подключение от ('127.0.0.1', 55524)
+2023-05-16 12:51:27,948 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 55524)>
+2023-05-16 12:51:27,948 - Полученная команда set_param_agilent
+2023-05-16 12:51:27,949 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:51:27,990 - Выполнено
+2023-05-16 12:51:27,990 - Подключение от ('127.0.0.1', 55532)
+2023-05-16 12:51:27,990 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 55532)>
+2023-05-16 12:51:27,991 - Полученная команда set_param_belan
+2023-05-16 12:51:27,991 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:51:28,370 - Выполнено
+2023-05-16 12:51:28,371 - Подключение от ('127.0.0.1', 55548)
+2023-05-16 12:51:28,371 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 55548)>
+2023-05-16 12:51:28,371 - Полученная команда read_data
+2023-05-16 12:51:28,371 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:51:34,107 - Выполнено
+2023-05-16 12:52:40,004 - Подключение от ('127.0.0.1', 50554)
+2023-05-16 12:52:40,005 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 50554)>
+2023-05-16 12:52:40,005 - Полученная команда set_param_agilent
+2023-05-16 12:52:40,005 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:52:40,047 - Выполнено
+2023-05-16 12:52:40,048 - Подключение от ('127.0.0.1', 50558)
+2023-05-16 12:52:40,048 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 50558)>
+2023-05-16 12:52:40,048 - Полученная команда set_param_belan
+2023-05-16 12:52:40,049 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:52:40,430 - Выполнено
+2023-05-16 12:52:40,431 - Подключение от ('127.0.0.1', 50562)
+2023-05-16 12:52:40,431 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 50562)>
+2023-05-16 12:52:40,431 - Полученная команда read_data
+2023-05-16 12:52:40,431 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:52:46,166 - Выполнено
+2023-05-16 12:53:25,333 - Подключение от ('127.0.0.1', 41270)
+2023-05-16 12:53:25,333 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41270)>
+2023-05-16 12:53:25,333 - Полученная команда set_param_agilent
+2023-05-16 12:53:25,333 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:53:25,373 - Выполнено
+2023-05-16 12:53:25,374 - Подключение от ('127.0.0.1', 41280)
+2023-05-16 12:53:25,374 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41280)>
+2023-05-16 12:53:25,374 - Полученная команда set_param_belan
+2023-05-16 12:53:25,375 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:53:25,752 - Выполнено
+2023-05-16 12:53:25,753 - Подключение от ('127.0.0.1', 41292)
+2023-05-16 12:53:25,753 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 41292)>
+2023-05-16 12:53:25,753 - Полученная команда read_data
+2023-05-16 12:53:25,753 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:54:43,725 - Подключение от ('127.0.0.1', 59930)
+2023-05-16 12:54:43,726 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59930)>
+2023-05-16 12:54:43,726 - Полученная команда set_param_agilent
+2023-05-16 12:54:43,726 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:54:43,768 - Выполнено
+2023-05-16 12:54:43,770 - Подключение от ('127.0.0.1', 59942)
+2023-05-16 12:54:43,770 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59942)>
+2023-05-16 12:54:43,770 - Полученная команда set_param_belan
+2023-05-16 12:54:43,770 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:54:44,154 - Выполнено
+2023-05-16 12:54:44,154 - Подключение от ('127.0.0.1', 59952)
+2023-05-16 12:54:44,155 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 59952)>
+2023-05-16 12:54:44,155 - Полученная команда read_data
+2023-05-16 12:54:44,155 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:54:49,900 - Выполнено
+2023-05-16 12:56:10,103 - Подключение от ('127.0.0.1', 53848)
+2023-05-16 12:56:10,103 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53848)>
+2023-05-16 12:56:10,103 - Полученная команда set_param_agilent
+2023-05-16 12:56:10,104 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:56:10,153 - Выполнено
+2023-05-16 12:56:10,154 - Подключение от ('127.0.0.1', 53860)
+2023-05-16 12:56:10,154 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53860)>
+2023-05-16 12:56:10,155 - Полученная команда set_param_belan
+2023-05-16 12:56:10,155 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:56:10,534 - Выполнено
+2023-05-16 12:56:10,535 - Подключение от ('127.0.0.1', 50574)
+2023-05-16 12:56:10,535 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 50574)>
+2023-05-16 12:56:10,535 - Полученная команда read_data
+2023-05-16 12:56:10,535 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:56:16,271 - Выполнено
+2023-05-16 12:57:00,793 - Подключение от ('127.0.0.1', 59102)
+2023-05-16 12:57:00,793 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 59102)>
+2023-05-16 12:57:00,793 - Полученная команда set_param_agilent
+2023-05-16 12:57:00,794 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:57:00,836 - Выполнено
+2023-05-16 12:57:00,836 - Подключение от ('127.0.0.1', 59118)
+2023-05-16 12:57:00,837 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 59118)>
+2023-05-16 12:57:00,837 - Полученная команда set_param_belan
+2023-05-16 12:57:00,837 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:57:01,219 - Выполнено
+2023-05-16 12:57:01,220 - Подключение от ('127.0.0.1', 59134)
+2023-05-16 12:57:01,220 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.2', 8000), raddr=('127.0.0.1', 59134)>
+2023-05-16 12:57:01,220 - Полученная команда read_data
+2023-05-16 12:57:01,220 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:57:06,955 - Выполнено
+2023-05-16 12:58:00,794 - Подключение от ('127.0.0.1', 53348)
+2023-05-16 12:58:00,795 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53348)>
+2023-05-16 12:58:00,795 - Полученная команда set_param_agilent
+2023-05-16 12:58:00,795 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 12:58:00,837 - Выполнено
+2023-05-16 12:58:00,838 - Подключение от ('127.0.0.1', 53360)
+2023-05-16 12:58:00,838 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53360)>
+2023-05-16 12:58:00,838 - Полученная команда set_param_belan
+2023-05-16 12:58:00,839 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 12:58:01,218 - Выполнено
+2023-05-16 12:58:01,219 - Подключение от ('127.0.0.1', 53366)
+2023-05-16 12:58:01,219 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 53366)>
+2023-05-16 12:58:01,219 - Полученная команда read_data
+2023-05-16 12:58:01,219 - Полученные параметры {'command': 'read_data'}
+2023-05-16 12:58:11,323 - Выполнено
+2023-05-16 13:01:18,666 - Подключение от ('127.0.0.1', 46568)
+2023-05-16 13:01:18,666 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 46568)>
+2023-05-16 13:01:18,666 - Полученная команда set_param_agilent
+2023-05-16 13:01:18,667 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 13:01:18,708 - Выполнено
+2023-05-16 13:01:18,709 - Подключение от ('127.0.0.1', 46576)
+2023-05-16 13:01:18,709 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 46576)>
+2023-05-16 13:01:18,709 - Полученная команда set_param_belan
+2023-05-16 13:01:18,709 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 13:01:19,092 - Выполнено
+2023-05-16 13:01:19,093 - Подключение от ('127.0.0.1', 46586)
+2023-05-16 13:01:19,093 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 46586)>
+2023-05-16 13:01:19,093 - Полученная команда read_data
+2023-05-16 13:01:19,093 - Полученные параметры {'command': 'read_data'}
+2023-05-16 13:01:29,199 - Выполнено
+2023-05-16 13:01:47,379 - Подключение от ('127.0.0.1', 49922)
+2023-05-16 13:01:47,380 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 49922)>
+2023-05-16 13:01:47,380 - Полученная команда set_param_agilent
+2023-05-16 13:01:47,380 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 13:01:47,421 - Выполнено
+2023-05-16 13:01:47,422 - Подключение от ('127.0.0.1', 49932)
+2023-05-16 13:01:47,422 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 49932)>
+2023-05-16 13:01:47,422 - Полученная команда set_param_belan
+2023-05-16 13:01:47,422 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 13:01:47,800 - Выполнено
+2023-05-16 13:01:47,801 - Подключение от ('127.0.0.1', 49936)
+2023-05-16 13:01:47,801 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 49936)>
+2023-05-16 13:01:47,801 - Полученная команда read_data
+2023-05-16 13:01:47,801 - Полученные параметры {'command': 'read_data'}
+2023-05-16 13:04:01,169 - Подключение от ('127.0.0.1', 43686)
+2023-05-16 13:04:01,169 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 43686)>
+2023-05-16 13:04:01,169 - Полученная команда set_param_agilent
+2023-05-16 13:04:01,169 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 13:04:01,210 - Выполнено
+2023-05-16 13:04:01,211 - Подключение от ('127.0.0.1', 43698)
+2023-05-16 13:04:01,212 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 43698)>
+2023-05-16 13:04:01,212 - Полученная команда set_param_belan
+2023-05-16 13:04:01,212 - Полученные параметры {'command': 'set_param_belan', 'fr1eq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 13:18:35,852 - Подключение от ('127.0.0.1', 48942)
+2023-05-16 13:18:35,852 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 48942)>
+2023-05-16 13:18:35,852 - Полученная команда set_param_agilent
+2023-05-16 13:18:35,852 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 13:18:35,894 - Выполнено
+2023-05-16 13:18:35,895 - Подключение от ('127.0.0.1', 48954)
+2023-05-16 13:18:35,896 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 48954)>
+2023-05-16 13:18:35,896 - Полученная команда set_param_belan
+2023-05-16 13:18:35,896 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 13:18:36,274 - Выполнено
+2023-05-16 13:18:36,274 - Подключение от ('127.0.0.1', 48958)
+2023-05-16 13:18:36,275 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 48958)>
+2023-05-16 13:18:36,275 - Полученная команда read_data
+2023-05-16 13:18:36,275 - Полученные параметры {'command': 'read_data'}
+2023-05-16 13:18:55,127 - Выполнено
+2023-05-16 13:39:37,341 - Подключение от ('127.0.0.1', 33914)
+2023-05-16 13:39:37,342 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 33914)>
+2023-05-16 13:39:37,342 - Полученная команда set_param_agilent
+2023-05-16 13:39:37,342 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 13:39:37,382 - Выполнено
+2023-05-16 13:39:37,383 - Подключение от ('127.0.0.1', 33918)
+2023-05-16 13:39:37,383 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 33918)>
+2023-05-16 13:39:37,383 - Полученная команда set_param_belan
+2023-05-16 13:39:37,383 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 13:39:37,766 - Выполнено
+2023-05-16 13:39:37,766 - Подключение от ('127.0.0.1', 33920)
+2023-05-16 13:39:37,766 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 33920)>
+2023-05-16 13:39:37,767 - Полученная команда read_data
+2023-05-16 13:39:37,767 - Полученные параметры {'command': 'read_data'}
+2023-05-16 13:39:47,869 - Выполнено
+2023-05-16 13:40:36,313 - Подключение от ('127.0.0.1', 33328)
+2023-05-16 13:40:36,314 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 33328)>
+2023-05-16 13:40:36,314 - Полученная команда set_param_agilent
+2023-05-16 13:40:36,314 - Полученные параметры {'command': 'set_param_agilent', 'freq': 3000000000, 'ampl': -10}
+2023-05-16 13:40:36,358 - Выполнено
+2023-05-16 13:40:36,359 - Подключение от ('127.0.0.1', 33344)
+2023-05-16 13:40:36,360 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 33344)>
+2023-05-16 13:40:36,360 - Полученная команда set_param_belan
+2023-05-16 13:40:36,360 - Полученные параметры {'command': 'set_param_belan', 'freq': 3000000000, 'span_bw': 2000000, 'radio_bw': 30000, 'video_bw': 1000, 'razv': False}
+2023-05-16 13:40:36,743 - Выполнено
+2023-05-16 13:40:36,743 - Подключение от ('127.0.0.1', 33352)
+2023-05-16 13:40:36,743 - Вот такой клинет <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000), raddr=('127.0.0.1', 33352)>
+2023-05-16 13:40:36,743 - Полученная команда read_data
+2023-05-16 13:40:36,744 - Полученные параметры {'command': 'read_data'}
+2023-05-16 13:40:46,846 - Выполнено
