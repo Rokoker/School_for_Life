@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<<<<<<< HEAD:girafe_ai/main.pyproject.user
-<!-- Written by QtCreator 4.11.0, 2023-04-09T10:24:31. -->
-=======
-<!-- Written by QtCreator 4.14.1, 2023-04-10T13:21:50. -->
->>>>>>> c0a007c1883d8bd401744c0b9cd8f496d45cadca:server/main.pyproject.user
+<!-- Written by QtCreator 4.14.1, 2023-05-17T11:20:33. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -71,9 +67,6 @@
    <valuemap type="QVariantMap" key="AutoTest.CheckStates"/>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
-   <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey"/>
-   <value type="bool" key="ClangCodeModel.UseGlobalConfig">true</value>
-   <value type="QString" key="ClangCodeModel.WarningConfigId">Builtin.Questionable</value>
    <valuemap type="QVariantMap" key="ClangTools">
     <value type="bool" key="ClangTools.AnalyzeOpenFiles">true</value>
     <value type="bool" key="ClangTools.BuildBeforeAnalysis">true</value>
@@ -128,6 +121,11 @@
     <value type="QString" key="Analyzer.Perf.SampleMode">-F</value>
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
     <value type="int" key="Analyzer.Perf.StackSize">4096</value>
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
     <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
     <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
     <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
@@ -169,6 +167,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">skip2</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./home/user-astra/School_for_Life/server/skip2.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/user-astra/School_for_Life/server/skip2.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{4fd596f2-0fa7-4122-8480-dfc398aa4a6c}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/user-astra/School_for_Life/server/skip2.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -194,6 +193,11 @@
     <value type="QString" key="Analyzer.Perf.SampleMode">-F</value>
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
     <value type="int" key="Analyzer.Perf.StackSize">4096</value>
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
     <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
     <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
     <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
@@ -235,7 +239,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">main</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./home/user-astra/School_for_Life/server/main.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/user-astra/School_for_Life/server/main.py</value>
-    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{26fa0200-51b1-4a6d-9717-efdb3923e9e7}</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{3daabf7b-2b9f-495e-bc11-e88ba470ed18}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/user-astra/School_for_Life/server/main.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
@@ -261,6 +265,11 @@
     <value type="QString" key="Analyzer.Perf.SampleMode">-F</value>
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
     <value type="int" key="Analyzer.Perf.StackSize">4096</value>
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
     <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
     <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
     <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
@@ -302,6 +311,7 @@
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">skip</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration./home/user-astra/School_for_Life/server/skip.py</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/user-astra/School_for_Life/server/skip.py</value>
+    <value type="QString" key="PythonEditor.RunConfiguation.Interpreter">{0a79c9fe-330d-4625-a11f-46bf58c4970f}</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">/home/user-astra/School_for_Life/server/skip.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
